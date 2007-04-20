@@ -3,13 +3,15 @@
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
+%define		_requires_exceptions pear(PHPUnit
+
 Summary:	%{_pearname} - provides methods for spelling numerals in words
 Name:		php-pear-%{_pearname}
-Version:	0.14.0
+Version:	0.15.0
 Release:	%mkrel 1
 License:	PHP License
 Group:		Development/PHP
-Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
+Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Numbers_Words/
 Requires(post): php-pear
 Requires(preun): php-pear
@@ -99,5 +101,3 @@ rm -rf %{buildroot}
 %{_datadir}/pear/%{_class}/*.php
 %{_datadir}/pear/%{_class}/%{_subclass}/*.php
 %{_datadir}/pear/packages/%{_pearname}.xml
-
-
