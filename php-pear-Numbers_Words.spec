@@ -19,6 +19,7 @@ Requires:	php-pear
 Requires:	php-gd
 BuildArch:	noarch
 BuildRequires:	dos2unix
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 With Numbers_Words class you can convert numbers written in arabic
