@@ -8,7 +8,7 @@
 Summary:	%{_pearname} - provides methods for spelling numerals in words
 Name:		php-pear-%{_pearname}
 Version:	0.15.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -19,7 +19,7 @@ Requires:	php-pear
 Requires:	php-gd
 BuildArch:	noarch
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 With Numbers_Words class you can convert numbers written in arabic
