@@ -8,7 +8,7 @@
 Summary:	%{_pearname} - provides methods for spelling numerals in words
 Name:		php-pear-%{_pearname}
 Version:	0.15.0
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
