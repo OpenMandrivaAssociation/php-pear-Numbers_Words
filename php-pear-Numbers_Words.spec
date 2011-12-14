@@ -6,7 +6,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.16.3
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	Provides methods for spelling numerals in words
 License:	PHP License
 Group:		Development/PHP
