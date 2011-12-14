@@ -5,8 +5,8 @@
 %define		_requires_exceptions pear(PHPUnit
 
 Name:		php-pear-%{upstream_name}
-Version:	0.16.1
-Release:	%mkrel 5
+Version:	0.16.3
+Release:	%mkrel 1
 Summary:	Provides methods for spelling numerals in words
 License:	PHP License
 Group:		Development/PHP
