@@ -8,7 +8,7 @@ Release:	5
 Summary:	Provides methods for spelling numerals in words
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Numbers_Words/
+URL:		https://pear.php.net/package/Numbers_Words/
 Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
